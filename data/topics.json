@@ -1,0 +1,24 @@
+[
+  {
+    "id": "gizemli-kayip-sehirler",
+    "title": "Tarihin Gizemli Kayıp Şehirleri",
+    "angle": "Arkeolojik kanıtlarla efsaneleri birbirinden ayıran kısa belgesel",
+    "audience": "Tarih ve gizem meraklıları",
+    "evergreen_score": 9
+  },
+  {
+    "id": "antik-icatlar",
+    "title": "Çağının Çok Ötesindeki Antik İcatlar",
+    "angle": "Bugünkü teknolojiye şaşırtıcı biçimde benzeyen eski düzenekler",
+    "audience": "Bilim ve tarih meraklıları",
+    "evergreen_score": 9
+  },
+  {
+    "id": "deniz-fenerleri",
+    "title": "Dünyanın En Yalnız Deniz Fenerleri",
+    "angle": "İnsan hikâyeleri, coğrafya ve denizcilik tarihi",
+    "audience": "Belgesel ve denizcilik meraklıları",
+    "evergreen_score": 8
+  }
+]
+
