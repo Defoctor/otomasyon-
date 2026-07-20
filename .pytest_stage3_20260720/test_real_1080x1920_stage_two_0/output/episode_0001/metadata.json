@@ -1,0 +1,25 @@
+{
+  "episode_id": "episode_0001",
+  "story_category": "animal_rescue",
+  "main_character_type": "otter",
+  "character_id": "otter_0001_927",
+  "hook_type": "mysterious_visual_object",
+  "ending_type": "happy",
+  "duration_seconds": 25,
+  "providers_used": {
+    "story": "mock",
+    "image": "placeholder",
+    "video": "local_motion",
+    "tts": "mock",
+    "music": "generated_demo",
+    "sound_effects": "generated_demo",
+    "render": "ffmpeg"
+  },
+  "generation_cost_estimate_usd": 0.0,
+  "approval_status": "pending",
+  "upload_status": "not_ready",
+  "requires_manual_approval": true,
+  "demo_mode": true,
+  "generation_status": "completed",
+  "final_video_path": "C:\\Users\\Semih\\Desktop\\otomasyon\\.pytest_stage3_20260720\\test_real_1080x1920_stage_two_0\\output\\episode_0001\\final_short.mp4"
+}

@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block title %}Dashboard · Kids Shorts Studio{% endblock %}
+{% block content %}
+<section class="hero">
+  <div>
+    <p class="eyebrow">AUTOMATION CONTROL</p>
+    <h1>Turn a safe story into a finished Short.</h1>
+    <p>Everything stays on this computer. Review every video before approval.</p>
+  </div>
+  <span class="status-badge success">System {{ system.status }}</span>
+</section>
+
+<section class="metric-grid">
+  <article class="metric"><span>Total episodes</span><strong>{{ totals.total }}</strong></article>
+  <article class="metric"><span>Completed</span><strong>{{ totals.completed }}</strong></article>
+  <article class="metric"><span>Waiting approval</span><strong>{{ totals.waiting }}</strong></article>
+  <article class="metric"><span>Failed</span><strong>{{ totals.failed }}</strong></article>
+</section>
+
+<section class="content-grid">
+  <article class="panel">
+    <div class="panel-head"><div><p class="eyebrow">NEW PRODUCTION</p><h2>Generate video</h2></div></div>
+    <form id="generate-form" class="form-grid">
+      <label><span>Mode</span><select name="create_story"><option value="true">Create a new story</option><option value="false">Use existing episode</option></select></label>
+      <label><span>Existing episode</span><select name="episode_id"><option value="">Select episode</option>{% for episode in episodes %}<option value="{{ episode.episode_id }}">{{ episode.episode_id }}</option>{% endfor %}</select></label>
+      <label><span>Category</span><select name="category"><option value="">Automatic selection</option><option value="animal_rescue">Animal rescue</option><option value="lost_baby_animal">Lost baby animal</option><option value="unexpected_friendship">Unexpected friendship</option></select></label>
+      <label><span>Duration</span><input name="duration_seconds" type="number" min="25" max="35" value="30"></label>
+      <label><span>Seed</span><input name="seed" type="number" placeholder="Optional"></label>
+      <button class="button primary" type="submit">Generate Video</button>
+    </form>
+    <div id="job-progress" class="job-progress hidden" data-poll="{{ poll_interval }}">
+      <div class="progress-track"><span></span></div>
+      <p>Queued</p>
+    </div>
+  </article>
+  <article class="panel">
+    <div class="panel-head"><div><p class="eyebrow">SYSTEM</p><h2>Local services</h2></div></div>
+    <dl class="status-list">
+      <div><dt>FFmpeg</dt><dd class="status-badge {{ 'success' if system.ffmpeg else 'danger' }}">{{ 'Ready' if system.ffmpeg else 'Missing' }}</dd></div>
+      <div><dt>FFprobe</dt><dd class="status-badge {{ 'success' if system.ffprobe else 'danger' }}">{{ 'Ready' if system.ffprobe else 'Missing' }}</dd></div>
+      {% for key, value in system.providers.items() %}<div><dt>{{ key|replace('_',' ')|title }}</dt><dd>{{ value }}</dd></div>{% endfor %}
+    </dl>
+  </article>
+</section>
+
+<section class="panel">
+  <div class="panel-head"><div><p class="eyebrow">RECENT</p><h2>Latest episodes</h2></div><a href="/episodes">View all</a></div>
+  {% include "_episode_table.html" %}
+</section>
+<section class="panel">
+  <div class="panel-head"><div><p class="eyebrow">JOBS &amp; ERRORS</p><h2>Recent activity</h2></div></div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Job</th><th>Episode</th><th>Stage</th><th>Status</th><th>Error</th></tr></thead>
+    <tbody>{% for job in jobs %}<tr>
+      <td><code>{{ job.job_id }}</code><small>{{ job.job_type }}</small></td>
+      <td>{{ job.episode_id or 'Pending ID' }}</td>
+      <td>{{ job.current_stage|replace('_',' ') }}</td>
+      <td><span class="status-badge {{ 'danger' if job.status in ['failed','interrupted'] else 'neutral' }}">{{ job.status }}</span></td>
+      <td class="error-cell">{{ job.error_message or '—' }}</td>
+    </tr>{% else %}<tr><td colspan="5">No web jobs yet.</td></tr>{% endfor %}</tbody>
+  </table></div>
+</section>
+{% endblock %}

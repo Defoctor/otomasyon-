@@ -1,0 +1,25 @@
+{
+  "episode_id": "episode_0001",
+  "story_category": "animal_rescue",
+  "main_character_type": "red panda",
+  "character_id": "red_panda_0001_348",
+  "hook_type": "mysterious_visual_object",
+  "ending_type": "happy",
+  "duration_seconds": 30,
+  "providers_used": {
+    "story": "mock",
+    "image": "placeholder",
+    "video": "local_motion",
+    "tts": "mock",
+    "music": "generated_demo",
+    "sound_effects": "generated_demo",
+    "render": "ffmpeg"
+  },
+  "generation_cost_estimate_usd": 0.0,
+  "approval_status": "pending",
+  "upload_status": "not_ready",
+  "requires_manual_approval": true,
+  "demo_mode": true,
+  "generation_status": "completed",
+  "final_video_path": "C:\\Users\\Semih\\Desktop\\otomasyon\\.pytest_stage3_20260720\\test_end_to_end_stage_two_pipe0\\output\\episode_0001\\final_short.mp4"
+}

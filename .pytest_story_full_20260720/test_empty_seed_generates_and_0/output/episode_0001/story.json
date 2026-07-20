@@ -1,0 +1,110 @@
+{
+  "episode_id": "episode_0001",
+  "language": "en",
+  "duration_target_seconds": 30,
+  "story_category": "animal_rescue",
+  "title": "The Hedgehog and the Rainbow Seed: Safe Rescue",
+  "hook": "Just before the rain, a silver humming sound surprised a tiny hedgehog.",
+  "hook_type": "rescue_mission",
+  "character_bible": {
+    "main_character": {
+      "character_id": "hedgehog_0001_492",
+      "species": "hedgehog",
+      "age_style": "young storybook animal",
+      "body_shape": "small oval body",
+      "fur_or_skin_color": "caramel spines and a cream face",
+      "eye_color": "round hazel eyes",
+      "clothes": "a berry-purple vest",
+      "accessories": "a tiny canvas pouch",
+      "personality": "patient, cheerful, and resourceful",
+      "distinguishing_features": "three heart-shaped forehead marks",
+      "visual_style": "high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition",
+      "negative_prompt": "violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors"
+    }
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "duration_seconds": 5,
+      "narration": "Just before the rain, a silver humming sound surprised a tiny hedgehog.",
+      "visual_prompt": "CHARACTER LOCK: hedgehog; young storybook animal; small oval body; caramel spines and a cream face; round hazel eyes; wearing a berry-purple vest; accessories: a tiny canvas pouch; distinguishing features: three heart-shaped forehead marks; personality: patient, cheerful, and resourceful; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. A striking opening in a quiet bamboo grove, featuring a large rainbow seed and a surprised hedgehog. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Quick gentle push-in with a surprised reaction.",
+      "sound_effects": [
+        "gentle ambience",
+        "rainbow seed"
+      ],
+      "emotion": "wonder"
+    },
+    {
+      "scene_number": 2,
+      "duration_seconds": 5,
+      "narration": "In the quiet bamboo grove, the hedgehog learned that a baby owl was confused by echoes in the moonlit garden.",
+      "visual_prompt": "CHARACTER LOCK: hedgehog; young storybook animal; small oval body; caramel spines and a cream face; round hazel eyes; wearing a berry-purple vest; accessories: a tiny canvas pouch; distinguishing features: three heart-shaped forehead marks; personality: patient, cheerful, and resourceful; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The quiet bamboo grove reveals the safe problem: a baby owl was confused by echoes in the moonlit garden. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Slow side tracking shot toward the friend in need.",
+      "sound_effects": [
+        "gentle ambience",
+        "rainbow seed"
+      ],
+      "emotion": "concern"
+    },
+    {
+      "scene_number": 3,
+      "duration_seconds": 5,
+      "narration": "What began as a rescue mission grew harder when the rainbow seed slipped out of reach.",
+      "visual_prompt": "CHARACTER LOCK: hedgehog; young storybook animal; small oval body; caramel spines and a cream face; round hazel eyes; wearing a berry-purple vest; accessories: a tiny canvas pouch; distinguishing features: three heart-shaped forehead marks; personality: patient, cheerful, and resourceful; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The challenge grows around the rainbow seed, with clear child-safe visual stakes. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Camera tilts toward the growing challenge.",
+      "sound_effects": [
+        "gentle ambience",
+        "rainbow seed"
+      ],
+      "emotion": "hopeful tension"
+    },
+    {
+      "scene_number": 4,
+      "duration_seconds": 5,
+      "narration": "The thoughtful hedgehog decided to reach the stranded friend and asked nearby animals to form a cheerful helping line.",
+      "visual_prompt": "CHARACTER LOCK: hedgehog; young storybook animal; small oval body; caramel spines and a cream face; round hazel eyes; wearing a berry-purple vest; accessories: a tiny canvas pouch; distinguishing features: three heart-shaped forehead marks; personality: patient, cheerful, and resourceful; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The character performs the solution: asked nearby animals to form a cheerful helping line. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Smooth close-up follows the careful solution.",
+      "sound_effects": [
+        "gentle ambience",
+        "rainbow seed"
+      ],
+      "emotion": "determination"
+    },
+    {
+      "scene_number": 5,
+      "duration_seconds": 5,
+      "narration": "The plan worked, bringing a safe rescue for everyone in the quiet bamboo grove.",
+      "visual_prompt": "CHARACTER LOCK: hedgehog; young storybook animal; small oval body; caramel spines and a cream face; round hazel eyes; wearing a berry-purple vest; accessories: a tiny canvas pouch; distinguishing features: three heart-shaped forehead marks; personality: patient, cheerful, and resourceful; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. Warm celebration showing the category result: safe rescue. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Small joyful orbit as warm particles drift.",
+      "sound_effects": [
+        "gentle ambience",
+        "rainbow seed"
+      ],
+      "emotion": "joy"
+    },
+    {
+      "scene_number": 6,
+      "duration_seconds": 5,
+      "narration": "The reunion filled the air with warm golden sparkles. The rainbow seed softly echoed the adventure's beginning.",
+      "visual_prompt": "CHARACTER LOCK: hedgehog; young storybook animal; small oval body; caramel spines and a cream face; round hazel eyes; wearing a berry-purple vest; accessories: a tiny canvas pouch; distinguishing features: three heart-shaped forehead marks; personality: patient, cheerful, and resourceful; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. A peaceful loop composition in the quiet bamboo grove, with the rainbow seed returning to its opening position. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Slow pull-back that matches the opening frame.",
+      "sound_effects": [
+        "gentle ambience",
+        "rainbow seed"
+      ],
+      "emotion": "warm satisfaction"
+    }
+  ],
+  "music_mood": "curious and gentle, becoming uplifting after the safe rescue",
+  "ending_type": "safe_rescue",
+  "loop_hint": "The final rainbow seed movement softly matches the opening.",
+  "content_summary": "In a quiet bamboo grove, a kind hedgehog helps when a baby owl was confused by echoes in the moonlit garden and creates a safe rescue.",
+  "tags": [
+    "kids story",
+    "animal rescue",
+    "hedgehog",
+    "rainbow seed",
+    "YouTube Shorts"
+  ]
+}

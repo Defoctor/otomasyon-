@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}{{ detail.episode.episode_id }} · Kids Shorts Studio{% endblock %}
+{% block content %}
+<section class="page-head">
+  <div><p class="eyebrow">{{ detail.episode.episode_id }}</p><h1>{{ detail.episode.title }}</h1><p>{{ detail.story.get('content_summary','') }}</p></div>
+  <div class="badge-stack"><span class="status-badge success">{{ detail.episode.generation_status }}</span><span class="status-badge neutral">{{ detail.episode.approval_status }}</span></div>
+</section>
+<section class="detail-grid">
+  <article class="panel video-panel">
+    {% if detail.media.final_video %}
+      <video controls preload="metadata" playsinline src="/media/{{ detail.episode.episode_id }}/{{ detail.media.final_video }}"></video>
+    {% else %}<div class="empty-video">Final video is not available.</div>{% endif %}
+  </article>
+  <article class="panel">
+    <h2>Episode details</h2>
+    <dl class="status-list">
+      <div><dt>Category</dt><dd>{{ detail.episode.category }}</dd></div>
+      <div><dt>Character</dt><dd>{{ detail.episode.main_character }}</dd></div>
+      <div><dt>Duration</dt><dd>{{ detail.episode.duration }} seconds</dd></div>
+      <div><dt>Quality</dt><dd>{{ detail.episode.quality_status }}</dd></div>
+      <div><dt>Cost</dt><dd>$0.00</dd></div>
+    </dl>
+    <div class="action-row">
+      <button class="button success" data-action="approve">Approve</button>
+      <button class="button danger" data-action="reject">Reject</button>
+      <button class="button" data-action="regenerate">Regenerate Full Video</button>
+    </div>
+  </article>
+</section>
+<section class="panel">
+  <div class="panel-head"><div><p class="eyebrow">STORYBOARD</p><h2>Six scenes</h2></div></div>
+  <div class="scene-grid">{% for scene in detail.story.get('scenes',[]) %}
+    <article class="scene-card">
+      {% set image = 'images/scene_%02d.png'|format(scene.scene_number) %}
+      <img src="/media/{{ detail.episode.episode_id }}/{{ image }}" alt="Scene {{ scene.scene_number }}">
+      <div><strong>Scene {{ scene.scene_number }}</strong><p>{{ scene.narration }}</p><button class="text-button" data-scene="{{ scene.scene_number }}">Regenerate scene</button></div>
+    </article>
+  {% endfor %}</div>
+</section>
+<section class="content-grid">
+  <article class="panel"><h2>Character Bible</h2><pre>{{ detail.character_bible|tojson(indent=2) }}</pre></article>
+  <article class="panel"><h2>Quality report</h2><pre>{{ detail.quality_report|tojson(indent=2) if detail.quality_report else 'Not available' }}</pre></article>
+</section>
+<section class="panel danger-zone">
+  <h2>Generated media</h2><p>Story, Character Bible and metadata are preserved.</p>
+  <button class="button danger" data-action="delete-media">Delete Generated Media</button>
+</section>
+<script>window.EPISODE_ID={{ detail.episode.episode_id|tojson }};</script>
+{% endblock %}

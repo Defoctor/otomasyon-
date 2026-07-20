@@ -1,0 +1,30 @@
+{
+  "rules": [
+    "Stories must be safe and appropriate for children.",
+    "Leo and Scout solve problems through courage, curiosity, teamwork, and kindness.",
+    "Leo and Scout's established appearances, personalities, possessions, and relationships cannot change without an explicit timeline event.",
+    "Past timeline events are canon and cannot be contradicted.",
+    "Danger is mild, non-graphic, and resolved safely.",
+    "The forest animals may communicate with Leo in a natural storybook way."
+  ],
+  "facts": [
+    "Leo is a 10-year-old child who lives with his mother and father.",
+    "Scout is an orange squirrel and Leo's best friend.",
+    "Leo attends the local school.",
+    "A forest, a hidden treehouse, and a river are close enough for recurring adventures.",
+    "The hidden treehouse is Leo and Scout's special meeting place.",
+    "Leo and Scout made a short documentary separating legends from archaeological clues about lost cities and shared it at school.",
+    "Leo and Scout made a short documentary separating legends from archaeological evidence about lost cities and shared it at school.",
+    "They discovered faint stone steps near the river and studied them safely as part of a new short documentary.",
+    "They created and presented another short documentary showing how to separate legends from archaeological evidence, emphasizing careful recording and asking experts.",
+    "Leo found Scout with a small injured paw in the forest; Leo stayed calm, gently helped him, and earned his trust, beginning their very first friendship in the treehouse."
+  ],
+  "name": "Leo and Scout's Story World",
+  "genre": "child-friendly adventure",
+  "tone": [
+    "warm",
+    "playful",
+    "mysterious but never frightening",
+    "hopeful"
+  ]
+}

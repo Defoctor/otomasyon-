@@ -1,0 +1,23 @@
+{
+  "memory_character_id": "leos_mother",
+  "aliases": ["Leo's mother", "his mother"],
+  "memory_snapshot": {
+    "name": "Leo's Mother",
+    "species": "human",
+    "personality": ["caring", "supportive", "responsible"]
+  },
+  "name": "Leo's Mother",
+  "age": "adult",
+  "gender": "woman",
+  "species": "human",
+  "height": "average adult height",
+  "hair": "shoulder-length dark brown hair",
+  "eyes": "warm brown eyes",
+  "clothes": "soft green cardigan, cream shirt, dark trousers",
+  "colors": ["soft green", "cream", "dark brown"],
+  "accessories": ["simple wristwatch"],
+  "personality": ["caring", "supportive", "responsible"],
+  "speaking_style": "gentle, reassuring, clear, and patient",
+  "prompt": "Leo's Mother, a consistent caring adult woman with shoulder-length dark brown hair, warm brown eyes, a soft green cardigan, cream shirt, dark trousers, and a simple wristwatch, polished 3D animated family-film character design, warm expression, cinematic lighting",
+  "negative_prompt": "teenager, elderly, different outfit colors, harsh expression, extra limbs, malformed hands, blurry, text, logo, watermark"
+}

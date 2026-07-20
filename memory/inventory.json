@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "id": "leo_blue_hoodie",
+      "name": "Leo's Blue Hoodie",
+      "type": "clothing",
+      "owner_id": "leo",
+      "description": "Leo's signature blue hoodie.",
+      "status": "owned"
+    },
+    {
+      "id": "scout_nut_collection",
+      "name": "Scout's Nut Collection",
+      "type": "collection",
+      "owner_id": "scout",
+      "description": "A changing collection of nuts gathered by Scout.",
+      "status": "owned",
+      "quantity": "variable"
+    },
+    {
+      "id": "leo_notebook",
+      "name": "Leo's Notebook",
+      "type": "notebook",
+      "owner_id": "leo",
+      "description": "A small notebook where Leo records finds, sketches maps, and writes documentary notes.",
+      "status": "owned"
+    },
+    {
+      "id": "cardboard_camera",
+      "name": "Cardboard Camera",
+      "type": "toy_camera",
+      "owner_id": "leo",
+      "description": "A homemade cardboard camera used by Leo to pretend to film their documentary.",
+      "status": "owned"
+    },
+    {
+      "id": "old_map_found",
+      "name": "Old Map",
+      "type": "map",
+      "owner_id": "leo",
+      "description": "A weathered hand-drawn map with simple symbols, found under the oak roots and kept in the treehouse.",
+      "status": "owned"
+    },
+    {
+      "id": "pottery_shard",
+      "name": "Pottery Shard",
+      "type": "archaeological_clue",
+      "owner_id": "leo",
+      "description": "A small painted pottery fragment found by the river, wrapped in a leaf and stored carefully.",
+      "status": "owned"
+    },
+    {
+      "id": "river_stone_sample",
+      "name": "River Stone Sample",
+      "type": "archaeological_clue",
+      "owner_id": "leo",
+      "description": "A small piece of mortar and a worn stone collected near the river steps, wrapped in a leaf and kept for careful study.",
+      "status": "owned"
+    }
+  ]
+}

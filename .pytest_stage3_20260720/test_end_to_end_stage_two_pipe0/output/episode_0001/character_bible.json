@@ -1,0 +1,16 @@
+{
+  "main_character": {
+    "character_id": "red_panda_0001_348",
+    "species": "red panda",
+    "age_style": "young storybook animal",
+    "body_shape": "small round body with short paws",
+    "fur_or_skin_color": "warm russet fur with cream cheeks",
+    "eye_color": "large teal eyes",
+    "clothes": "a tiny sunflower-yellow raincoat",
+    "accessories": "a leaf-shaped green satchel",
+    "personality": "kind, observant, and quietly brave",
+    "distinguishing_features": "a striped fluffy tail with a cream tip",
+    "visual_style": "high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition",
+    "negative_prompt": "violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors"
+  }
+}

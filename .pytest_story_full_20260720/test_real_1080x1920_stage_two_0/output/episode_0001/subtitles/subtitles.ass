@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00101820,&H00000000,-1,0,0,0,100,100,0,0,1,6,2,2,108,108,250,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,A shy lantern blinked three times from\Nbehind a tree near a tiny penguin.
+Dialogue: 0,0:00:05.00,0:00:09.00,Default,,0,0,0,,In the seaside dune, the penguin learned that a cloud\Nhad misplaced the silver bell that guided it home.
+Dialogue: 0,0:00:09.00,0:00:13.00,Default,,0,0,0,,What began as a rescue mission grew harder\Nwhen the paper star slipped out of reach.
+Dialogue: 0,0:00:13.00,0:00:17.00,Default,,0,0,0,,The thoughtful penguin decided to reach the stranded friend and\Nfollowed the clues and arranged bright stones into an arrow.
+Dialogue: 0,0:00:17.00,0:00:21.00,Default,,0,0,0,,The plan worked, bringing a safe rescue\Nfor everyone in the seaside dune.
+Dialogue: 0,0:00:21.00,0:00:25.00,Default,,0,0,0,,The new friends celebrated with a tiny dance under the leaves.\NThe paper star softly echoed the adventure's beginning.

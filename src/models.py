@@ -1,4 +1,4 @@
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 from typing import Any
 
 
@@ -8,6 +8,7 @@ class Scene:
     narration: str
     visual_prompt: str
     duration_seconds: int
+    speech: list[dict[str, str]] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -25,4 +26,3 @@ class ContentPackage:
     def to_dict(self) -> dict[str, Any]:
         data = asdict(self)
         return data
-

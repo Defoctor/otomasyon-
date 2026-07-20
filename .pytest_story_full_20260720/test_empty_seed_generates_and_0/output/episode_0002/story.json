@@ -1,0 +1,110 @@
+{
+  "episode_id": "episode_0002",
+  "language": "en",
+  "duration_target_seconds": 30,
+  "story_category": "lost_baby_animal",
+  "title": "The Koala and the Golden Button: Family Reunion",
+  "hook": "The smallest cloud lowered a mysterious ribbon toward a tiny koala.",
+  "hook_type": "search_for_home",
+  "character_bible": {
+    "main_character": {
+      "character_id": "koala_0002_675",
+      "species": "koala",
+      "age_style": "young storybook animal",
+      "body_shape": "small cuddly body",
+      "fur_or_skin_color": "silver-gray fur with fluffy ears",
+      "eye_color": "large violet eyes",
+      "clothes": "a peach neckerchief",
+      "accessories": "a eucalyptus badge",
+      "personality": "calm, thoughtful, and loyal",
+      "distinguishing_features": "a heart-shaped nose",
+      "visual_style": "high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition",
+      "negative_prompt": "violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors"
+    }
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "duration_seconds": 5,
+      "narration": "The smallest cloud lowered a mysterious ribbon toward a tiny koala.",
+      "visual_prompt": "CHARACTER LOCK: koala; young storybook animal; small cuddly body; silver-gray fur with fluffy ears; large violet eyes; wearing a peach neckerchief; accessories: a eucalyptus badge; distinguishing features: a heart-shaped nose; personality: calm, thoughtful, and loyal; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. A striking opening in a quiet bamboo grove, featuring a large golden button and a surprised koala. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Quick gentle push-in with a surprised reaction.",
+      "sound_effects": [
+        "gentle ambience",
+        "golden button"
+      ],
+      "emotion": "wonder"
+    },
+    {
+      "scene_number": 2,
+      "duration_seconds": 5,
+      "narration": "In the quiet bamboo grove, the koala learned that a baby duck could not cross a wide puddle.",
+      "visual_prompt": "CHARACTER LOCK: koala; young storybook animal; small cuddly body; silver-gray fur with fluffy ears; large violet eyes; wearing a peach neckerchief; accessories: a eucalyptus badge; distinguishing features: a heart-shaped nose; personality: calm, thoughtful, and loyal; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The quiet bamboo grove reveals the safe problem: a baby duck could not cross a wide puddle. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Slow side tracking shot toward the friend in need.",
+      "sound_effects": [
+        "gentle ambience",
+        "golden button"
+      ],
+      "emotion": "concern"
+    },
+    {
+      "scene_number": 3,
+      "duration_seconds": 5,
+      "narration": "What began as a search for home grew harder when the golden button slipped out of reach.",
+      "visual_prompt": "CHARACTER LOCK: koala; young storybook animal; small cuddly body; silver-gray fur with fluffy ears; large violet eyes; wearing a peach neckerchief; accessories: a eucalyptus badge; distinguishing features: a heart-shaped nose; personality: calm, thoughtful, and loyal; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The challenge grows around the golden button, with clear child-safe visual stakes. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Camera tilts toward the growing challenge.",
+      "sound_effects": [
+        "gentle ambience",
+        "golden button"
+      ],
+      "emotion": "hopeful tension"
+    },
+    {
+      "scene_number": 4,
+      "duration_seconds": 5,
+      "narration": "The thoughtful koala decided to follow signs left by the family and made a safe path by rolling smooth twigs into place.",
+      "visual_prompt": "CHARACTER LOCK: koala; young storybook animal; small cuddly body; silver-gray fur with fluffy ears; large violet eyes; wearing a peach neckerchief; accessories: a eucalyptus badge; distinguishing features: a heart-shaped nose; personality: calm, thoughtful, and loyal; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The character performs the solution: made a safe path by rolling smooth twigs into place. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Smooth close-up follows the careful solution.",
+      "sound_effects": [
+        "gentle ambience",
+        "golden button"
+      ],
+      "emotion": "determination"
+    },
+    {
+      "scene_number": 5,
+      "duration_seconds": 5,
+      "narration": "The plan worked, bringing a family reunion for everyone in the quiet bamboo grove.",
+      "visual_prompt": "CHARACTER LOCK: koala; young storybook animal; small cuddly body; silver-gray fur with fluffy ears; large violet eyes; wearing a peach neckerchief; accessories: a eucalyptus badge; distinguishing features: a heart-shaped nose; personality: calm, thoughtful, and loyal; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. Warm celebration showing the category result: family reunion. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Small joyful orbit as warm particles drift.",
+      "sound_effects": [
+        "gentle ambience",
+        "golden button"
+      ],
+      "emotion": "joy"
+    },
+    {
+      "scene_number": 6,
+      "duration_seconds": 5,
+      "narration": "Everyone laughed as the helpful object gave one joyful bounce. The golden button softly echoed the adventure's beginning.",
+      "visual_prompt": "CHARACTER LOCK: koala; young storybook animal; small cuddly body; silver-gray fur with fluffy ears; large violet eyes; wearing a peach neckerchief; accessories: a eucalyptus badge; distinguishing features: a heart-shaped nose; personality: calm, thoughtful, and loyal; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. A peaceful loop composition in the quiet bamboo grove, with the golden button returning to its opening position. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Slow pull-back that matches the opening frame.",
+      "sound_effects": [
+        "gentle ambience",
+        "golden button"
+      ],
+      "emotion": "warm satisfaction"
+    }
+  ],
+  "music_mood": "curious and gentle, becoming uplifting after the family reunion",
+  "ending_type": "family_reunion",
+  "loop_hint": "The final golden button movement softly matches the opening.",
+  "content_summary": "In a quiet bamboo grove, a kind koala helps when a baby duck could not cross a wide puddle and creates a family reunion.",
+  "tags": [
+    "kids story",
+    "lost baby animal",
+    "koala",
+    "golden button",
+    "YouTube Shorts"
+  ]
+}

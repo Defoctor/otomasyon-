@@ -1,0 +1,97 @@
+{
+  "events": [
+    {
+      "id": "initial_canon",
+      "order": 0,
+      "type": "background",
+      "title": "Leo and Scout Are Best Friends",
+      "summary": "Before the first episode, Leo and Scout became best friends and began using the hidden treehouse as their special meeting place.",
+      "characters": [
+        "leo",
+        "scout"
+      ],
+      "locations": [
+        "forest",
+        "hidden_treehouse"
+      ],
+      "status": "established_canon"
+    },
+    {
+      "id": "lost_cities_documentary",
+      "order": 1,
+      "type": "adventure",
+      "title": "Short Documentary on Lost Cities",
+      "summary": "Leo and Scout explored the river and forest, found a pottery shard and a map, and made a short documentary that taught their classmates how to separate legend from archaeological evidence.",
+      "characters": [
+        "leo",
+        "scout",
+        "leos_teacher"
+      ],
+      "locations": [
+        "hidden_treehouse",
+        "river",
+        "school",
+        "forest"
+      ],
+      "status": "established_canon"
+    },
+    {
+      "id": "extended_lost_cities_documentary",
+      "order": 2,
+      "type": "adventure",
+      "title": "Documentary and River Steps Discovery",
+      "summary": "Leo and Scout investigated a line of worn river stones and a small mortar piece, filmed a new short documentary explaining how to separate legends from archaeological clues, and shared their findings at school while agreeing to involve experts for proper recording.",
+      "characters": [
+        "leo",
+        "scout",
+        "leos_mother",
+        "leos_father",
+        "leos_teacher"
+      ],
+      "locations": [
+        "hidden_treehouse",
+        "river",
+        "school",
+        "forest"
+      ],
+      "status": "established_canon"
+    },
+    {
+      "id": "documentary_separating_legends_and_evidence",
+      "order": 3,
+      "type": "adventure",
+      "title": "Treehouse Documentary: Legends and Evidence",
+      "summary": "Leo and Scout created another short documentary in which they gently explained the difference between legends and archaeological evidence about lost cities, showed the pottery shard and river stone sample, presented it at school, and promised to involve experts for careful study.",
+      "characters": [
+        "leo",
+        "scout",
+        "leos_mother",
+        "leos_father",
+        "leos_teacher"
+      ],
+      "locations": [
+        "hidden_treehouse",
+        "river",
+        "school",
+        "forest"
+      ],
+      "status": "established_canon"
+    },
+    {
+      "id": "leo_finds_injured_scout",
+      "order": 0.5,
+      "type": "origin",
+      "title": "Leo Finds Scout with a Small Injured Paw",
+      "summary": "Leo discovered Scout in the forest with a small injured paw. Scout was frightened at first, but Leo stayed calm, gently helped with leaves and a tiny splint, and earned Scout's trust. Their first friendship began at the hidden treehouse.",
+      "characters": [
+        "leo",
+        "scout"
+      ],
+      "locations": [
+        "forest",
+        "hidden_treehouse"
+      ],
+      "status": "established_canon"
+    }
+  ]
+}

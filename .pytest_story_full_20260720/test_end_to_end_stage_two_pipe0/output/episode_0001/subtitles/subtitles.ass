@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 324
+PlayResY: 576
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00101820,&H00000000,-1,0,0,0,100,100,0,0,1,6,2,2,32,32,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,Just before the rain, a silver\Nhumming sound surprised a tiny rabbit.
+Dialogue: 0,0:00:05.00,0:00:10.00,Default,,0,0,0,,In the willow pond, the rabbit learned that\Na baby duck could not cross a wide puddle.
+Dialogue: 0,0:00:10.00,0:00:15.00,Default,,0,0,0,,What began as a rescue mission grew harder\Nwhen the golden button slipped out of reach.
+Dialogue: 0,0:00:15.00,0:00:20.00,Default,,0,0,0,,The thoughtful rabbit decided to reach the stranded\Nfriend and matched each echo with a friendly forest sound.
+Dialogue: 0,0:00:20.00,0:00:25.00,Default,,0,0,0,,The plan worked, bringing a safe\Nrescue for everyone in the willow pond.
+Dialogue: 0,0:00:25.00,0:00:30.00,Default,,0,0,0,,Everyone laughed as the helpful object gave one joyful bounce.\NThe golden button softly echoed the adventure's beginning.

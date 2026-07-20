@@ -1,0 +1,109 @@
+{
+  "episode_id": "episode_0001",
+  "language": "en",
+  "duration_target_seconds": 25,
+  "story_category": "animal_rescue",
+  "title": "The Tiny Otter and the Silver Bell",
+  "hook": "A silver bell rolled from the clouds and landed beside a tiny otter.",
+  "hook_type": "mysterious_visual_object",
+  "character_bible": {
+    "main_character": {
+      "character_id": "otter_0001_927",
+      "species": "otter",
+      "age_style": "young storybook animal",
+      "body_shape": "small smooth body with a broad tail",
+      "fur_or_skin_color": "soft cocoa-brown fur with a pale belly",
+      "eye_color": "large amber eyes",
+      "clothes": "a coral-red knitted scarf",
+      "accessories": "a small blue shell bracelet",
+      "personality": "playful, caring, and persistent",
+      "distinguishing_features": "three pale whisker dots on each cheek",
+      "visual_style": "high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition",
+      "negative_prompt": "violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors"
+    }
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "duration_seconds": 5,
+      "narration": "A silver bell rolled from the clouds and landed beside a tiny otter.",
+      "visual_prompt": "CHARACTER LOCK: otter; young storybook animal; small smooth body with a broad tail; soft cocoa-brown fur with a pale belly; large amber eyes; wearing a coral-red knitted scarf; accessories: a small blue shell bracelet; distinguishing features: three pale whisker dots on each cheek; personality: playful, caring, and persistent; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. A sparkling forest clearing beneath a round silver cloud. Keep the exact character colors, clothes, proportions, and accessories unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Quick gentle push-in as the bell lands and the character looks up.",
+      "sound_effects": [
+        "soft magical chime",
+        "gentle forest ambience"
+      ],
+      "emotion": "wonder"
+    },
+    {
+      "scene_number": 2,
+      "duration_seconds": 4,
+      "narration": "The otter spotted a lost duckling following the bell's soft sparkle.",
+      "visual_prompt": "CHARACTER LOCK: otter; young storybook animal; small smooth body with a broad tail; soft cocoa-brown fur with a pale belly; large amber eyes; wearing a coral-red knitted scarf; accessories: a small blue shell bracelet; distinguishing features: three pale whisker dots on each cheek; personality: playful, caring, and persistent; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. A flower-lined path with a tiny yellow duckling and a glowing bell. Keep the exact character colors, clothes, proportions, and accessories unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Slow side tracking shot; ears and leaves move in a soft breeze.",
+      "sound_effects": [
+        "tiny footsteps",
+        "soft bell sparkle"
+      ],
+      "emotion": "concern"
+    },
+    {
+      "scene_number": 3,
+      "duration_seconds": 4,
+      "narration": "A puddle blocked the little duckling from reaching its waiting family.",
+      "visual_prompt": "CHARACTER LOCK: otter; young storybook animal; small smooth body with a broad tail; soft cocoa-brown fur with a pale belly; large amber eyes; wearing a coral-red knitted scarf; accessories: a small blue shell bracelet; distinguishing features: three pale whisker dots on each cheek; personality: playful, caring, and persistent; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. A wide shallow puddle reflecting colorful trees, safe and calm. Keep the exact character colors, clothes, proportions, and accessories unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Camera tilts down to the puddle, then settles on a hopeful expression.",
+      "sound_effects": [
+        "light water ripple"
+      ],
+      "emotion": "hopeful tension"
+    },
+    {
+      "scene_number": 4,
+      "duration_seconds": 4,
+      "narration": "The clever otter placed broad leaves across the water like stepping stones.",
+      "visual_prompt": "CHARACTER LOCK: otter; young storybook animal; small smooth body with a broad tail; soft cocoa-brown fur with a pale belly; large amber eyes; wearing a coral-red knitted scarf; accessories: a small blue shell bracelet; distinguishing features: three pale whisker dots on each cheek; personality: playful, caring, and persistent; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The character carefully arranges broad green leaves across the puddle. Keep the exact character colors, clothes, proportions, and accessories unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Smooth close-up of paws placing leaves, with subtle parallax.",
+      "sound_effects": [
+        "leaves rustling",
+        "gentle splash"
+      ],
+      "emotion": "determination"
+    },
+    {
+      "scene_number": 5,
+      "duration_seconds": 4,
+      "narration": "The duckling crossed safely, then the silver bell jingled with happy golden light.",
+      "visual_prompt": "CHARACTER LOCK: otter; young storybook animal; small smooth body with a broad tail; soft cocoa-brown fur with a pale belly; large amber eyes; wearing a coral-red knitted scarf; accessories: a small blue shell bracelet; distinguishing features: three pale whisker dots on each cheek; personality: playful, caring, and persistent; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The reunited duck family celebrates under warm golden sparkles. Keep the exact character colors, clothes, proportions, and accessories unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Small orbit around the joyful group as golden particles drift.",
+      "sound_effects": [
+        "happy chime",
+        "soft bird song"
+      ],
+      "emotion": "joy"
+    },
+    {
+      "scene_number": 6,
+      "duration_seconds": 4,
+      "narration": "Everyone waved as the bell floated back toward the same cloud where the adventure began.",
+      "visual_prompt": "CHARACTER LOCK: otter; young storybook animal; small smooth body with a broad tail; soft cocoa-brown fur with a pale belly; large amber eyes; wearing a coral-red knitted scarf; accessories: a small blue shell bracelet; distinguishing features: three pale whisker dots on each cheek; personality: playful, caring, and persistent; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The peaceful clearing mirrors the opening composition as the bell rises. Keep the exact character colors, clothes, proportions, and accessories unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Slow pull-back and upward tilt toward the opening cloud for a loop.",
+      "sound_effects": [
+        "fading magical chime",
+        "gentle forest ambience"
+      ],
+      "emotion": "warm satisfaction"
+    }
+  ],
+  "music_mood": "curious and gentle, becoming warm and uplifting",
+  "ending_type": "happy",
+  "loop_hint": "The final bell chime and cloud composition softly match the opening.",
+  "content_summary": "A kind otter builds a safe leaf bridge to reunite a lost duckling with its family.",
+  "tags": [
+    "kids story",
+    "animal rescue",
+    "kindness",
+    "friendship",
+    "YouTube Shorts"
+  ]
+}

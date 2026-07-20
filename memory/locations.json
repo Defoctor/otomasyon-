@@ -1,0 +1,57 @@
+{
+  "locations": [
+    {
+      "id": "home",
+      "name": "Leo's Home",
+      "type": "home",
+      "description": "A warm, safe family home where Leo lives with his mother and father.",
+      "regular_characters": [
+        "leo",
+        "leos_mother",
+        "leos_father"
+      ]
+    },
+    {
+      "id": "school",
+      "name": "Leo's School",
+      "type": "school",
+      "description": "Leo's friendly local school, with a classroom led by Leo's teacher.",
+      "regular_characters": [
+        "leo",
+        "leos_teacher"
+      ]
+    },
+    {
+      "id": "forest",
+      "name": "The Forest",
+      "type": "forest",
+      "description": "A lively green forest filled with winding paths, old trees, small animals, and gentle mysteries.",
+      "regular_characters": [
+        "scout"
+      ],
+      "contains": [
+        "hidden_treehouse"
+      ]
+    },
+    {
+      "id": "hidden_treehouse",
+      "name": "The Hidden Treehouse",
+      "type": "secret_base",
+      "description": "A cozy treehouse hidden among the forest branches and used by Leo and Scout as their special meeting place.",
+      "regular_characters": [
+        "leo",
+        "scout"
+      ],
+      "parent_location_id": "forest"
+    },
+    {
+      "id": "river",
+      "name": "The River",
+      "type": "river",
+      "description": "A clear river near the forest with gentle banks, smooth stones, and safe places to explore with care.",
+      "nearby_locations": [
+        "forest"
+      ]
+    }
+  ]
+}

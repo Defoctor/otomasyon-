@@ -1,0 +1,16 @@
+{
+  "main_character": {
+    "character_id": "hedgehog_0001_492",
+    "species": "hedgehog",
+    "age_style": "young storybook animal",
+    "body_shape": "small oval body",
+    "fur_or_skin_color": "caramel spines and a cream face",
+    "eye_color": "round hazel eyes",
+    "clothes": "a berry-purple vest",
+    "accessories": "a tiny canvas pouch",
+    "personality": "patient, cheerful, and resourceful",
+    "distinguishing_features": "three heart-shaped forehead marks",
+    "visual_style": "high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition",
+    "negative_prompt": "violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors"
+  }
+}

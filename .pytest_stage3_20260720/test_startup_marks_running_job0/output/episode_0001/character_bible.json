@@ -1,0 +1,16 @@
+{
+  "main_character": {
+    "character_id": "otter_0001_254",
+    "species": "otter",
+    "age_style": "young storybook animal",
+    "body_shape": "small smooth body with a broad tail",
+    "fur_or_skin_color": "soft cocoa-brown fur with a pale belly",
+    "eye_color": "large amber eyes",
+    "clothes": "a coral-red knitted scarf",
+    "accessories": "a small blue shell bracelet",
+    "personality": "playful, caring, and persistent",
+    "distinguishing_features": "three pale whisker dots on each cheek",
+    "visual_style": "high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition",
+    "negative_prompt": "violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors"
+  }
+}

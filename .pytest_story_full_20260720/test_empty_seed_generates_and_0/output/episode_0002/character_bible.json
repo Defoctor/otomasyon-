@@ -1,0 +1,16 @@
+{
+  "main_character": {
+    "character_id": "koala_0002_675",
+    "species": "koala",
+    "age_style": "young storybook animal",
+    "body_shape": "small cuddly body",
+    "fur_or_skin_color": "silver-gray fur with fluffy ears",
+    "eye_color": "large violet eyes",
+    "clothes": "a peach neckerchief",
+    "accessories": "a eucalyptus badge",
+    "personality": "calm, thoughtful, and loyal",
+    "distinguishing_features": "a heart-shaped nose",
+    "visual_style": "high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition",
+    "negative_prompt": "violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors"
+  }
+}

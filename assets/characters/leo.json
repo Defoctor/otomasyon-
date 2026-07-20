@@ -1,0 +1,27 @@
+{
+  "memory_character_id": "leo",
+  "aliases": ["Leo"],
+  "memory_snapshot": {
+    "name": "Leo",
+    "age": 10,
+    "species": "human",
+    "hair": "brown",
+    "eyes": "green",
+    "clothes": "blue hoodie",
+    "personality": ["brave", "curious"]
+  },
+  "name": "Leo",
+  "age": 10,
+  "gender": "boy",
+  "species": "human",
+  "height": "average height for a 10-year-old",
+  "hair": "short, slightly tousled brown hair",
+  "eyes": "bright green eyes",
+  "clothes": "blue hoodie, dark shorts, white sneakers",
+  "colors": ["blue", "brown", "green", "white"],
+  "accessories": [],
+  "personality": ["brave", "curious"],
+  "speaking_style": "energetic, curious, warm, and confident",
+  "prompt": "Leo, a consistent 10-year-old adventurous boy with short tousled brown hair, bright green eyes, a blue hoodie, dark shorts, and white sneakers, polished 3D animated family-film character design, expressive face, child-friendly proportions, cinematic lighting",
+  "negative_prompt": "wrong age, different hair color, different eye color, missing blue hoodie, extra limbs, malformed hands, blurry, text, logo, watermark"
+}

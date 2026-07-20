@@ -1,0 +1,51 @@
+{
+  "cues": [
+    {
+      "time_seconds": 0.35,
+      "scene_number": 1,
+      "labels": [
+        "soft magical chime",
+        "gentle forest ambience"
+      ]
+    },
+    {
+      "time_seconds": 5.35,
+      "scene_number": 2,
+      "labels": [
+        "tiny footsteps",
+        "soft bell sparkle"
+      ]
+    },
+    {
+      "time_seconds": 10.35,
+      "scene_number": 3,
+      "labels": [
+        "light water ripple"
+      ]
+    },
+    {
+      "time_seconds": 15.35,
+      "scene_number": 4,
+      "labels": [
+        "leaves rustling",
+        "gentle splash"
+      ]
+    },
+    {
+      "time_seconds": 20.35,
+      "scene_number": 5,
+      "labels": [
+        "happy chime",
+        "soft bird song"
+      ]
+    },
+    {
+      "time_seconds": 25.35,
+      "scene_number": 6,
+      "labels": [
+        "fading magical chime",
+        "gentle forest ambience"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00101820,&H00000000,-1,0,0,0,100,100,0,0,1,6,2,2,108,108,250,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,A silver bell rolled from the clouds\Nand landed beside a tiny otter.
+Dialogue: 0,0:00:05.00,0:00:09.00,Default,,0,0,0,,The otter spotted a lost duckling\Nfollowing the bell's soft sparkle.
+Dialogue: 0,0:00:09.00,0:00:13.00,Default,,0,0,0,,A puddle blocked the little duckling\Nfrom reaching its waiting family.
+Dialogue: 0,0:00:13.00,0:00:17.00,Default,,0,0,0,,The clever otter placed broad leaves\Nacross the water like stepping stones.
+Dialogue: 0,0:00:17.00,0:00:21.00,Default,,0,0,0,,The duckling crossed safely, then the\Nsilver bell jingled with happy golden light.
+Dialogue: 0,0:00:21.00,0:00:25.00,Default,,0,0,0,,Everyone waved as the bell floated back toward\Nthe same cloud where the adventure began.

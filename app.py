@@ -11,7 +11,7 @@ st.caption("Güvenli test modu • API ücreti yok • Otomatik YouTube yükleme
 
 topics = load_topics()
 selected_title = st.selectbox("Konu seçin", [item["title"] for item in topics])
-minutes = st.slider("Hedef video süresi", 5, 10, 5)
+minutes = st.slider("Hedef video süresi", 5, 8, 5)
 topic = next(item for item in topics if item["title"] == selected_title)
 
 st.info(f"Yaklaşım: {topic['angle']}\n\nHedef kitle: {topic['audience']}")
@@ -54,4 +54,3 @@ if result:
             encoding="utf-8",
         )
         st.success("Onay kaydedildi. YouTube'a yükleme yapılmadı.")
-

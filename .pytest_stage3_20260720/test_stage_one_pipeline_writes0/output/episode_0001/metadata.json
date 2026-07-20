@@ -1,0 +1,17 @@
+{
+  "episode_id": "episode_0001",
+  "story_category": "animal_rescue",
+  "main_character_type": "otter",
+  "character_id": "otter_0001_986",
+  "hook_type": "mysterious_visual_object",
+  "ending_type": "happy",
+  "duration_seconds": 30,
+  "providers_used": {
+    "story": "mock"
+  },
+  "generation_cost_estimate_usd": 0.0,
+  "approval_status": "pending",
+  "upload_status": "not_ready",
+  "requires_manual_approval": true,
+  "demo_mode": true
+}

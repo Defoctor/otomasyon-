@@ -1,0 +1,23 @@
+{
+  "memory_character_id": "leos_teacher",
+  "aliases": ["Leo's teacher", "the teacher"],
+  "memory_snapshot": {
+    "name": "Leo's Teacher",
+    "species": "human",
+    "personality": ["kind", "observant", "encouraging"]
+  },
+  "name": "Leo's Teacher",
+  "age": "adult",
+  "gender": "non-specific adult",
+  "species": "human",
+  "height": "average adult height",
+  "hair": "short curly black hair",
+  "eyes": "dark brown eyes",
+  "clothes": "mustard-yellow sweater, white collared shirt, charcoal trousers",
+  "colors": ["mustard yellow", "white", "charcoal", "black"],
+  "accessories": ["round glasses", "blue classroom lanyard"],
+  "personality": ["kind", "observant", "encouraging"],
+  "speaking_style": "clear, encouraging, thoughtful, and educational",
+  "prompt": "Leo's Teacher, a consistent kind adult teacher with short curly black hair, dark brown eyes, round glasses, a mustard-yellow sweater over a white collared shirt, charcoal trousers, and a blue classroom lanyard, polished 3D animated family-film character design, encouraging expression, cinematic lighting",
+  "negative_prompt": "different outfit colors, missing glasses, frightening expression, extra limbs, malformed hands, blurry, text, logo, watermark"
+}

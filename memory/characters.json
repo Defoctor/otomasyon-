@@ -1,0 +1,113 @@
+{
+  "characters": [
+    {
+      "id": "leo",
+      "name": "Leo",
+      "role": "main_character",
+      "voice": {
+        "role": "leo",
+        "voice_name": "Leo Custom Voice",
+        "voice_id": "bIHbv24MWmeRgasZH58o"
+      },
+      "species": "human",
+      "age": 10,
+      "appearance": {
+        "hair": "brown",
+        "eyes": "green",
+        "signature_clothing": "blue hoodie"
+      },
+      "personality": [
+        "brave",
+        "curious"
+      ],
+      "home_location_id": "home",
+      "continuity_rules": [
+        "Leo is always 10 years old unless the timeline explicitly records a birthday.",
+        "Leo has brown hair and green eyes.",
+        "Leo's signature clothing is his blue hoodie."
+      ]
+    },
+    {
+      "id": "scout",
+      "name": "Scout",
+      "role": "main_character",
+      "voice": {
+        "role": "scout",
+        "voice_name": "Laura - Enthusiast, Quirky Attitude",
+        "voice_id": "FGY2WhTYpPnrIDTdsKH5"
+      },
+      "species": "squirrel",
+      "appearance": {
+        "fur": "orange"
+      },
+      "personality": [
+        "funny",
+        "loyal",
+        "very intelligent"
+      ],
+      "likes": [
+        "collecting nuts"
+      ],
+      "home_location_id": "forest",
+      "continuity_rules": [
+        "Scout is an orange squirrel.",
+        "Scout is Leo's best friend.",
+        "Scout loves collecting nuts."
+      ]
+    },
+    {
+      "id": "leos_mother",
+      "name": "Leo's Mother",
+      "role": "parent",
+      "voice": {
+        "role": "mother",
+        "voice_name": "Lily - Velvety Actress",
+        "voice_id": "pFZP5JQG7iQjIQuC4Bku"
+      },
+      "species": "human",
+      "relationship_to_leo": "mother",
+      "home_location_id": "home",
+      "personality": [
+        "caring",
+        "supportive",
+        "responsible"
+      ]
+    },
+    {
+      "id": "leos_father",
+      "name": "Leo's Father",
+      "role": "parent",
+      "voice": {
+        "role": "father",
+        "voice_name": "Eric - Smooth, Trustworthy",
+        "voice_id": "cjVigY5qzO86Huf0OWal"
+      },
+      "species": "human",
+      "relationship_to_leo": "father",
+      "home_location_id": "home",
+      "personality": [
+        "patient",
+        "supportive",
+        "practical"
+      ]
+    },
+    {
+      "id": "leos_teacher",
+      "name": "Leo's Teacher",
+      "role": "teacher",
+      "species": "human",
+      "relationship_to_leo": "teacher",
+      "primary_location_id": "school",
+      "personality": [
+        "kind",
+        "observant",
+        "encouraging"
+      ]
+    }
+  ],
+  "narrator_voice": {
+    "role": "narrator",
+    "voice_name": "Bella - Professional, Bright, Warm",
+    "voice_id": "hpp4J3VqNfWAUOO0d1Us"
+  }
+}

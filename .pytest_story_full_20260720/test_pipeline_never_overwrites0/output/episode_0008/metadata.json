@@ -1,0 +1,18 @@
+{
+  "episode_id": "episode_0008",
+  "story_category": "emotional_to_happy",
+  "main_character_type": "penguin",
+  "character_id": "penguin_0008_483",
+  "hook_type": "lonely_beginning",
+  "ending_type": "heartwarming_reunion",
+  "duration_seconds": 30,
+  "providers_used": {
+    "story": "mock"
+  },
+  "generation_cost_estimate_usd": 0.0,
+  "approval_status": "pending",
+  "upload_status": "not_ready",
+  "requires_manual_approval": true,
+  "demo_mode": true,
+  "generation_seed": 12
+}

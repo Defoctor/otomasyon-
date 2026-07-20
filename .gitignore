@@ -5,4 +5,13 @@ __pycache__/
 *.pyc
 data/projects/*
 !data/projects/.gitkeep
-
+output/*
+!output/.gitkeep
+*.db
+*.db-shm
+*.db-wal
+logs/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/

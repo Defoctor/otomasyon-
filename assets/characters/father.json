@@ -1,0 +1,23 @@
+{
+  "memory_character_id": "leos_father",
+  "aliases": ["Leo's father", "his father"],
+  "memory_snapshot": {
+    "name": "Leo's Father",
+    "species": "human",
+    "personality": ["patient", "supportive", "practical"]
+  },
+  "name": "Leo's Father",
+  "age": "adult",
+  "gender": "man",
+  "species": "human",
+  "height": "slightly tall adult",
+  "hair": "short wavy brown hair",
+  "eyes": "hazel eyes",
+  "clothes": "rust-red overshirt, light gray T-shirt, navy trousers",
+  "colors": ["rust red", "light gray", "navy", "brown"],
+  "accessories": [],
+  "personality": ["patient", "supportive", "practical"],
+  "speaking_style": "calm, thoughtful, encouraging, and practical",
+  "prompt": "Leo's Father, a consistent patient adult man with short wavy brown hair, hazel eyes, a rust-red overshirt, light gray T-shirt, and navy trousers, polished 3D animated family-film character design, friendly expression, cinematic lighting",
+  "negative_prompt": "teenager, elderly, different outfit colors, angry expression, extra limbs, malformed hands, blurry, text, logo, watermark"
+}

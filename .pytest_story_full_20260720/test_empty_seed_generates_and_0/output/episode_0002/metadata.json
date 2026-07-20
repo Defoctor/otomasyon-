@@ -1,0 +1,18 @@
+{
+  "episode_id": "episode_0002",
+  "story_category": "lost_baby_animal",
+  "main_character_type": "koala",
+  "character_id": "koala_0002_675",
+  "hook_type": "search_for_home",
+  "ending_type": "family_reunion",
+  "duration_seconds": 30,
+  "providers_used": {
+    "story": "mock"
+  },
+  "generation_cost_estimate_usd": 0.0,
+  "approval_status": "pending",
+  "upload_status": "not_ready",
+  "requires_manual_approval": true,
+  "demo_mode": true,
+  "generation_seed": 1100863392415739034
+}

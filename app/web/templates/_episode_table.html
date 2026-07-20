@@ -1,0 +1,12 @@
+<div class="table-wrap"><table>
+  <thead><tr><th>Episode</th><th>Story</th><th>Status</th><th>Approval</th><th>Video</th></tr></thead>
+  <tbody>{% for episode in episodes %}
+    <tr>
+      <td><a href="/episodes/{{ episode.episode_id }}">{{ episode.episode_id }}</a></td>
+      <td><strong>{{ episode.title }}</strong><small>{{ episode.category|replace('_',' ') }}</small></td>
+      <td><span class="status-badge {{ 'success' if episode.generation_status == 'completed' else 'danger' if episode.generation_status == 'failed' else 'neutral' }}">{{ episode.generation_status }}</span></td>
+      <td><span class="status-badge neutral">{{ episode.approval_status }}</span></td>
+      <td>{{ 'Ready' if episode.final_video_exists else 'Missing' }}</td>
+    </tr>
+  {% else %}<tr><td colspan="5">No episodes yet.</td></tr>{% endfor %}</tbody>
+</table></div>

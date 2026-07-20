@@ -1,0 +1,23 @@
+{
+  "memory_character_id": "scout",
+  "aliases": ["Scout"],
+  "memory_snapshot": {
+    "name": "Scout",
+    "species": "squirrel",
+    "personality": ["funny", "loyal", "very intelligent"]
+  },
+  "name": "Scout",
+  "age": "young adult squirrel",
+  "gender": "male",
+  "species": "squirrel",
+  "height": "small, reaches Leo's knee when standing upright",
+  "hair": "soft orange fur with a cream-colored belly",
+  "eyes": "large dark brown eyes",
+  "clothes": "no clothes",
+  "colors": ["orange", "cream", "dark brown"],
+  "accessories": ["a small leaf-green nut pouch when collecting nuts"],
+  "personality": ["funny", "loyal", "very intelligent"],
+  "speaking_style": "quick, witty, playful, and clever",
+  "prompt": "Scout, a consistent clever orange squirrel with soft orange fur, a cream belly, large dark brown eyes, a fluffy tail, and an optional small leaf-green nut pouch, polished 3D animated family-film character design, funny expressive pose, cinematic lighting",
+  "negative_prompt": "different fur color, missing fluffy tail, realistic aggressive animal, extra limbs, malformed paws, blurry, text, logo, watermark"
+}

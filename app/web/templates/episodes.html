@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}Episodes · Kids Shorts Studio{% endblock %}
+{% block content %}
+<section class="page-head"><div><p class="eyebrow">LIBRARY</p><h1>Episodes</h1></div></section>
+<div class="filters">{% for value,label in [('all','All'),('completed','Completed'),('failed','Failed'),('waiting','Waiting for approval'),('approved','Approved'),('rejected','Rejected')] %}<a class="{{ 'active' if selected_filter == value }}" href="/episodes?status={{ value }}">{{ label }}</a>{% endfor %}</div>
+<section class="panel">{% include "_episode_table.html" %}</section>
+{% endblock %}
