@@ -28,6 +28,10 @@ class WebRepository:
     ) -> JobResponse:
         now = _now()
         job_id = f"webjob_{uuid4().hex}"
+        if episode_id is not None and self.has_active_job(episode_id):
+            raise RuntimeError(
+                f"An active job already exists for {episode_id}."
+            )
         try:
             with self.database.connect() as connection:
                 connection.execute(
@@ -51,9 +55,23 @@ class WebRepository:
                 )
         except sqlite3.IntegrityError as exc:
             raise RuntimeError(
-                "An active or duplicate job already exists for this episode."
+                "The job could not be queued because an active job was "
+                "created concurrently. Please refresh and try again."
             ) from exc
         return self.get_job(job_id)
+
+    def has_active_job(self, episode_id: str) -> bool:
+        with self.database.connect() as connection:
+            row = connection.execute(
+                """
+                SELECT 1 FROM web_generation_jobs
+                WHERE episode_id = ?
+                  AND status IN ('queued', 'running', 'pending')
+                LIMIT 1
+                """,
+                (episode_id,),
+            ).fetchone()
+        return row is not None
 
     def get_job(self, job_id: str) -> JobResponse:
         with self.database.connect() as connection:
@@ -147,7 +165,7 @@ class WebRepository:
                         'Application stopped before the job completed.',
                     completed_at = ?,
                     updated_at = ?
-                WHERE status IN ('queued', 'running')
+                WHERE status IN ('queued', 'running', 'pending')
                 """,
                 (now, now),
             )

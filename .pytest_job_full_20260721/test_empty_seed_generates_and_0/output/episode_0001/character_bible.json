@@ -1,0 +1,16 @@
+{
+  "main_character": {
+    "character_id": "fox_0001_786",
+    "species": "fox",
+    "age_style": "young storybook animal",
+    "body_shape": "small agile body",
+    "fur_or_skin_color": "soft orange fur with a white chest",
+    "eye_color": "large emerald eyes",
+    "clothes": "a sky-blue scarf",
+    "accessories": "a wooden acorn pin",
+    "personality": "warm, clever, and helpful",
+    "distinguishing_features": "a bright white tail tip",
+    "visual_style": "high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition",
+    "negative_prompt": "violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors"
+  }
+}

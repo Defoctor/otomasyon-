@@ -37,6 +37,30 @@ class Database:
                     connection.execute(
                         f"ALTER TABLE episodes ADD COLUMN {column} {definition}"
                     )
+            # A legacy build could leave jobs in a non-terminal `pending`
+            # state. No current worker owns those rows during startup.
+            connection.execute(
+                """
+                UPDATE web_generation_jobs
+                SET status = 'interrupted', current_stage = 'interrupted',
+                    error_message =
+                        'Legacy pending job recovered during startup.',
+                    completed_at = CURRENT_TIMESTAMP,
+                    updated_at = CURRENT_TIMESTAMP
+                WHERE status = 'pending'
+                """
+            )
+            # Recreate the partial index so installations made before legacy
+            # pending-job recovery received the current active-state set.
+            connection.execute("DROP INDEX IF EXISTS idx_web_jobs_active_episode")
+            connection.execute(
+                """
+                CREATE UNIQUE INDEX idx_web_jobs_active_episode
+                ON web_generation_jobs(episode_id)
+                WHERE episode_id IS NOT NULL
+                  AND status IN ('queued', 'running', 'pending')
+                """
+            )
 
     @contextmanager
     def connect(self) -> Iterator[sqlite3.Connection]:

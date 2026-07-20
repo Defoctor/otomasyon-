@@ -144,7 +144,7 @@ CREATE TABLE IF NOT EXISTS web_generation_jobs (
 
 CREATE UNIQUE INDEX IF NOT EXISTS idx_web_jobs_active_episode
 ON web_generation_jobs(episode_id)
-WHERE episode_id IS NOT NULL AND status IN ('queued', 'running');
+WHERE episode_id IS NOT NULL AND status IN ('queued', 'running', 'pending');
 
 CREATE INDEX IF NOT EXISTS idx_web_jobs_created
 ON web_generation_jobs(created_at DESC);

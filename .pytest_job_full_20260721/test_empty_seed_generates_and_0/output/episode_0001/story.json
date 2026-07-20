@@ -1,0 +1,110 @@
+{
+  "episode_id": "episode_0001",
+  "language": "en",
+  "duration_target_seconds": 30,
+  "story_category": "animal_rescue",
+  "title": "The Fox and the Striped Ribbon: Safe Rescue",
+  "hook": "At sunrise, a tiny fox discovered tiny sparkling footprints.",
+  "hook_type": "rescue_mission",
+  "character_bible": {
+    "main_character": {
+      "character_id": "fox_0001_786",
+      "species": "fox",
+      "age_style": "young storybook animal",
+      "body_shape": "small agile body",
+      "fur_or_skin_color": "soft orange fur with a white chest",
+      "eye_color": "large emerald eyes",
+      "clothes": "a sky-blue scarf",
+      "accessories": "a wooden acorn pin",
+      "personality": "warm, clever, and helpful",
+      "distinguishing_features": "a bright white tail tip",
+      "visual_style": "high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition",
+      "negative_prompt": "violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors"
+    }
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "duration_seconds": 5,
+      "narration": "At sunrise, a tiny fox discovered tiny sparkling footprints.",
+      "visual_prompt": "CHARACTER LOCK: fox; young storybook animal; small agile body; soft orange fur with a white chest; large emerald eyes; wearing a sky-blue scarf; accessories: a wooden acorn pin; distinguishing features: a bright white tail tip; personality: warm, clever, and helpful; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. A striking opening in a cloudberry hill, featuring a large striped ribbon and a surprised fox. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Quick gentle push-in with a surprised reaction.",
+      "sound_effects": [
+        "gentle ambience",
+        "striped ribbon"
+      ],
+      "emotion": "wonder"
+    },
+    {
+      "scene_number": 2,
+      "duration_seconds": 5,
+      "narration": "In the cloudberry hill, the fox learned that a small fish was separated from its pond by a shallow stream.",
+      "visual_prompt": "CHARACTER LOCK: fox; young storybook animal; small agile body; soft orange fur with a white chest; large emerald eyes; wearing a sky-blue scarf; accessories: a wooden acorn pin; distinguishing features: a bright white tail tip; personality: warm, clever, and helpful; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The cloudberry hill reveals the safe problem: a small fish was separated from its pond by a shallow stream. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Slow side tracking shot toward the friend in need.",
+      "sound_effects": [
+        "gentle ambience",
+        "striped ribbon"
+      ],
+      "emotion": "concern"
+    },
+    {
+      "scene_number": 3,
+      "duration_seconds": 5,
+      "narration": "What began as a rescue mission grew harder when the striped ribbon slipped out of reach.",
+      "visual_prompt": "CHARACTER LOCK: fox; young storybook animal; small agile body; soft orange fur with a white chest; large emerald eyes; wearing a sky-blue scarf; accessories: a wooden acorn pin; distinguishing features: a bright white tail tip; personality: warm, clever, and helpful; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The challenge grows around the striped ribbon, with clear child-safe visual stakes. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Camera tilts toward the growing challenge.",
+      "sound_effects": [
+        "gentle ambience",
+        "striped ribbon"
+      ],
+      "emotion": "hopeful tension"
+    },
+    {
+      "scene_number": 4,
+      "duration_seconds": 5,
+      "narration": "The thoughtful fox decided to reach the stranded friend and asked nearby animals to form a cheerful helping line.",
+      "visual_prompt": "CHARACTER LOCK: fox; young storybook animal; small agile body; soft orange fur with a white chest; large emerald eyes; wearing a sky-blue scarf; accessories: a wooden acorn pin; distinguishing features: a bright white tail tip; personality: warm, clever, and helpful; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The character performs the solution: asked nearby animals to form a cheerful helping line. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Smooth close-up follows the careful solution.",
+      "sound_effects": [
+        "gentle ambience",
+        "striped ribbon"
+      ],
+      "emotion": "determination"
+    },
+    {
+      "scene_number": 5,
+      "duration_seconds": 5,
+      "narration": "The plan worked, bringing a safe rescue for everyone in the cloudberry hill.",
+      "visual_prompt": "CHARACTER LOCK: fox; young storybook animal; small agile body; soft orange fur with a white chest; large emerald eyes; wearing a sky-blue scarf; accessories: a wooden acorn pin; distinguishing features: a bright white tail tip; personality: warm, clever, and helpful; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. Warm celebration showing the category result: safe rescue. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Small joyful orbit as warm particles drift.",
+      "sound_effects": [
+        "gentle ambience",
+        "striped ribbon"
+      ],
+      "emotion": "joy"
+    },
+    {
+      "scene_number": 6,
+      "duration_seconds": 5,
+      "narration": "The new friends celebrated with a tiny dance under the leaves. The striped ribbon softly echoed the adventure's beginning.",
+      "visual_prompt": "CHARACTER LOCK: fox; young storybook animal; small agile body; soft orange fur with a white chest; large emerald eyes; wearing a sky-blue scarf; accessories: a wooden acorn pin; distinguishing features: a bright white tail tip; personality: warm, clever, and helpful; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. A peaceful loop composition in the cloudberry hill, with the striped ribbon returning to its opening position. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Slow pull-back that matches the opening frame.",
+      "sound_effects": [
+        "gentle ambience",
+        "striped ribbon"
+      ],
+      "emotion": "warm satisfaction"
+    }
+  ],
+  "music_mood": "curious and gentle, becoming uplifting after the safe rescue",
+  "ending_type": "safe_rescue",
+  "loop_hint": "The final striped ribbon movement softly matches the opening.",
+  "content_summary": "In a cloudberry hill, a kind fox helps when a small fish was separated from its pond by a shallow stream and creates a safe rescue.",
+  "tags": [
+    "kids story",
+    "animal rescue",
+    "fox",
+    "striped ribbon",
+    "YouTube Shorts"
+  ]
+}

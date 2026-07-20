@@ -1,0 +1,26 @@
+{
+  "episode_id": "episode_0001",
+  "story_category": "animal_rescue",
+  "main_character_type": "rabbit",
+  "character_id": "rabbit_0001_857",
+  "hook_type": "rescue_mission",
+  "ending_type": "safe_rescue",
+  "duration_seconds": 30,
+  "providers_used": {
+    "story": "mock",
+    "image": "placeholder",
+    "video": "local_motion",
+    "tts": "mock",
+    "music": "generated_demo",
+    "sound_effects": "generated_demo",
+    "render": "ffmpeg"
+  },
+  "generation_cost_estimate_usd": 0.0,
+  "approval_status": "pending",
+  "upload_status": "not_ready",
+  "requires_manual_approval": true,
+  "demo_mode": true,
+  "generation_seed": 22,
+  "generation_status": "completed",
+  "final_video_path": "C:\\Users\\Semih\\Desktop\\otomasyon\\.pytest_job_full_20260721\\test_end_to_end_stage_two_pipe0\\output\\episode_0001\\final_short.mp4"
+}

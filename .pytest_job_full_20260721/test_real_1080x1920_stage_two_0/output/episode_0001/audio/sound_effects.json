@@ -1,0 +1,52 @@
+{
+  "cues": [
+    {
+      "time_seconds": 0.35,
+      "scene_number": 1,
+      "labels": [
+        "gentle ambience",
+        "paper star"
+      ]
+    },
+    {
+      "time_seconds": 5.35,
+      "scene_number": 2,
+      "labels": [
+        "gentle ambience",
+        "paper star"
+      ]
+    },
+    {
+      "time_seconds": 9.35,
+      "scene_number": 3,
+      "labels": [
+        "gentle ambience",
+        "paper star"
+      ]
+    },
+    {
+      "time_seconds": 13.35,
+      "scene_number": 4,
+      "labels": [
+        "gentle ambience",
+        "paper star"
+      ]
+    },
+    {
+      "time_seconds": 17.35,
+      "scene_number": 5,
+      "labels": [
+        "gentle ambience",
+        "paper star"
+      ]
+    },
+    {
+      "time_seconds": 21.35,
+      "scene_number": 6,
+      "labels": [
+        "gentle ambience",
+        "paper star"
+      ]
+    }
+  ]
+}

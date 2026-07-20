@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 320
+PlayResY: 568
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,72,&H00FFFFFF,&H000000FF,&H00101820,&H00000000,-1,0,0,0,100,100,0,0,1,6,2,2,32,32,74,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,A spinning seed landed on a tiny rabbit's\Nnose and pointed toward adventure.
+Dialogue: 0,0:00:05.00,0:00:10.00,Default,,0,0,0,,In the autumn orchard, the rabbit learned that\Na tiny bird had lost the nest it called home.
+Dialogue: 0,0:00:10.00,0:00:15.00,Default,,0,0,0,,What began as a rescue mission grew harder\Nwhen the leaf map slipped out of reach.
+Dialogue: 0,0:00:15.00,0:00:20.00,Default,,0,0,0,,The thoughtful rabbit decided to reach the stranded friend\Nand asked nearby animals to form a cheerful helping line.
+Dialogue: 0,0:00:20.00,0:00:25.00,Default,,0,0,0,,The plan worked, bringing a safe rescue\Nfor everyone in the autumn orchard.
+Dialogue: 0,0:00:25.00,0:00:30.00,Default,,0,0,0,,The final puddle ripple formed a heart before fading away.\NThe leaf map softly echoed the adventure's beginning.

@@ -1,0 +1,16 @@
+{
+  "main_character": {
+    "character_id": "rabbit_0001_857",
+    "species": "rabbit",
+    "age_style": "young storybook animal",
+    "body_shape": "tiny pear-shaped body",
+    "fur_or_skin_color": "lavender-gray fur with white paws",
+    "eye_color": "large moss-green eyes",
+    "clothes": "mint-green overalls",
+    "accessories": "a star-shaped wooden button",
+    "personality": "curious, gentle, and inventive",
+    "distinguishing_features": "one ear folded at the tip",
+    "visual_style": "high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition",
+    "negative_prompt": "violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors"
+  }
+}

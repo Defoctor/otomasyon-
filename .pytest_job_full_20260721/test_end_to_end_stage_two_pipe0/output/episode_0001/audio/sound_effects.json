@@ -1,0 +1,52 @@
+{
+  "cues": [
+    {
+      "time_seconds": 0.35,
+      "scene_number": 1,
+      "labels": [
+        "gentle ambience",
+        "golden button"
+      ]
+    },
+    {
+      "time_seconds": 5.35,
+      "scene_number": 2,
+      "labels": [
+        "gentle ambience",
+        "golden button"
+      ]
+    },
+    {
+      "time_seconds": 10.35,
+      "scene_number": 3,
+      "labels": [
+        "gentle ambience",
+        "golden button"
+      ]
+    },
+    {
+      "time_seconds": 15.35,
+      "scene_number": 4,
+      "labels": [
+        "gentle ambience",
+        "golden button"
+      ]
+    },
+    {
+      "time_seconds": 20.35,
+      "scene_number": 5,
+      "labels": [
+        "gentle ambience",
+        "golden button"
+      ]
+    },
+    {
+      "time_seconds": 25.35,
+      "scene_number": 6,
+      "labels": [
+        "gentle ambience",
+        "golden button"
+      ]
+    }
+  ]
+}

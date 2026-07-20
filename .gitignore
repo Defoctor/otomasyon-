@@ -15,3 +15,7 @@ logs/
 htmlcov/
 .mypy_cache/
 .ruff_cache/
+.pytest*/
+output/pytest*/
+__pycache__/
+*.pyc

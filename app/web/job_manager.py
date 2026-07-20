@@ -44,7 +44,10 @@ class JobManager:
         self, request: GenerateEpisodeRequest
     ) -> JobResponse:
         payload = request.model_dump(mode="json")
-        key = _idempotency_key("generate", payload)
+        # Each submission is a distinct attempt. Active-episode locking is
+        # enforced by the repository; a historical identical request must not
+        # permanently block a retry.
+        key = _idempotency_key("generate", payload, unique=True)
         job = self.repository.create_job(
             "generate", request.episode_id, key
         )

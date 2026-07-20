@@ -82,6 +82,37 @@ def test_duplicate_active_episode_job_is_blocked(tmp_path: Path):
     assert second.status_code == 409
 
 
+def test_identical_request_is_allowed_after_previous_job_finishes(
+    tmp_path: Path,
+):
+    settings = web_settings(tmp_path)
+    seed_episode(settings)
+
+    def handler(job_id, job_type, payload, progress):
+        return "episode_0001"
+
+    def factory(settings, repository):
+        return JobManager(settings, repository, work_handler=handler)
+
+    application = create_web_app(settings, job_manager_factory=factory)
+    payload = {
+        "create_story": False,
+        "episode_id": "episode_0001",
+        "automatic_category": True,
+        "duration_seconds": 30,
+    }
+    with TestClient(application) as client:
+        first = client.post("/episodes/generate", json=payload)
+        first_result = wait_for_job(client, first.json()["job_id"])
+        second = client.post("/episodes/generate", json=payload)
+        second_result = wait_for_job(client, second.json()["job_id"])
+
+    assert first_result["status"] == "waiting_for_approval"
+    assert second.status_code == 202
+    assert second_result["status"] == "waiting_for_approval"
+    assert first_result["job_id"] != second_result["job_id"]
+
+
 def test_startup_marks_running_jobs_interrupted(tmp_path: Path):
     settings = web_settings(tmp_path)
     seed_episode(settings)
@@ -107,6 +138,35 @@ def test_startup_marks_running_jobs_interrupted(tmp_path: Path):
 
     assert recovered["status"] == "interrupted"
     assert "stopped" in recovered["error_message"]
+
+
+def test_startup_recovers_legacy_pending_job(tmp_path: Path):
+    settings = web_settings(tmp_path)
+    seed_episode(settings)
+    from app.database import Database
+
+    database = Database(settings.database_path)
+    database.initialize()
+    with database.connect() as connection:
+        connection.execute(
+            """
+            INSERT INTO web_generation_jobs (
+                job_id, episode_id, job_type, status, current_stage,
+                progress_percent, idempotency_key, created_at, updated_at
+            ) VALUES (
+                'webjob_legacy_pending', 'episode_0001', 'generate',
+                'pending', 'pending', 0, 'legacy-pending-key',
+                CURRENT_TIMESTAMP, CURRENT_TIMESTAMP
+            )
+            """
+        )
+
+    application = create_web_app(settings)
+    with TestClient(application) as client:
+        recovered = client.get("/jobs/webjob_legacy_pending").json()
+
+    assert recovered["status"] == "interrupted"
+    assert "pending" in recovered["error_message"].lower()
 
 
 def test_panel_propagates_explicit_and_empty_seed(tmp_path: Path):

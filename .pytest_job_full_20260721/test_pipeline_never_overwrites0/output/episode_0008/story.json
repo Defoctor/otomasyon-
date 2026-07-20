@@ -1,0 +1,110 @@
+{
+  "episode_id": "episode_0008",
+  "language": "en",
+  "duration_target_seconds": 30,
+  "story_category": "emotional_to_happy",
+  "title": "The Penguin and the Paper Star: Heartwarming Reunion",
+  "hook": "A bouncing blue light led a tiny penguin beyond the garden gate.",
+  "hook_type": "lonely_beginning",
+  "character_bible": {
+    "main_character": {
+      "character_id": "penguin_0008_483",
+      "species": "penguin",
+      "age_style": "young storybook animal",
+      "body_shape": "small rounded body",
+      "fur_or_skin_color": "midnight-blue feathers with a white belly",
+      "eye_color": "large brown eyes",
+      "clothes": "a tangerine bow tie",
+      "accessories": "a snowflake satchel",
+      "personality": "polite, determined, and caring",
+      "distinguishing_features": "one freckle beside the beak",
+      "visual_style": "high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition",
+      "negative_prompt": "violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors"
+    }
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "duration_seconds": 5,
+      "narration": "A bouncing blue light led a tiny penguin beyond the garden gate.",
+      "visual_prompt": "CHARACTER LOCK: penguin; young storybook animal; small rounded body; midnight-blue feathers with a white belly; large brown eyes; wearing a tangerine bow tie; accessories: a snowflake satchel; distinguishing features: one freckle beside the beak; personality: polite, determined, and caring; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. A striking opening in a seaside dune, featuring a large paper star and a surprised penguin. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Quick gentle push-in with a surprised reaction.",
+      "sound_effects": [
+        "gentle ambience",
+        "paper star"
+      ],
+      "emotion": "wonder"
+    },
+    {
+      "scene_number": 2,
+      "duration_seconds": 5,
+      "narration": "In the seaside dune, the penguin learned that a bashful caterpillar had lost a colorful keepsake.",
+      "visual_prompt": "CHARACTER LOCK: penguin; young storybook animal; small rounded body; midnight-blue feathers with a white belly; large brown eyes; wearing a tangerine bow tie; accessories: a snowflake satchel; distinguishing features: one freckle beside the beak; personality: polite, determined, and caring; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The seaside dune reveals the safe problem: a bashful caterpillar had lost a colorful keepsake. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Slow side tracking shot toward the friend in need.",
+      "sound_effects": [
+        "gentle ambience",
+        "paper star"
+      ],
+      "emotion": "concern"
+    },
+    {
+      "scene_number": 3,
+      "duration_seconds": 5,
+      "narration": "What began as a lonely beginning grew harder when the paper star slipped out of reach.",
+      "visual_prompt": "CHARACTER LOCK: penguin; young storybook animal; small rounded body; midnight-blue feathers with a white belly; large brown eyes; wearing a tangerine bow tie; accessories: a snowflake satchel; distinguishing features: one freckle beside the beak; personality: polite, determined, and caring; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The challenge grows around the paper star, with clear child-safe visual stakes. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Camera tilts toward the growing challenge.",
+      "sound_effects": [
+        "gentle ambience",
+        "paper star"
+      ],
+      "emotion": "hopeful tension"
+    },
+    {
+      "scene_number": 4,
+      "duration_seconds": 5,
+      "narration": "The thoughtful penguin decided to offer patient kindness and hope and used reflected sunlight to reveal the hidden route.",
+      "visual_prompt": "CHARACTER LOCK: penguin; young storybook animal; small rounded body; midnight-blue feathers with a white belly; large brown eyes; wearing a tangerine bow tie; accessories: a snowflake satchel; distinguishing features: one freckle beside the beak; personality: polite, determined, and caring; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The character performs the solution: used reflected sunlight to reveal the hidden route. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Smooth close-up follows the careful solution.",
+      "sound_effects": [
+        "gentle ambience",
+        "paper star"
+      ],
+      "emotion": "determination"
+    },
+    {
+      "scene_number": 5,
+      "duration_seconds": 5,
+      "narration": "The plan worked, bringing a heartwarming reunion for everyone in the seaside dune.",
+      "visual_prompt": "CHARACTER LOCK: penguin; young storybook animal; small rounded body; midnight-blue feathers with a white belly; large brown eyes; wearing a tangerine bow tie; accessories: a snowflake satchel; distinguishing features: one freckle beside the beak; personality: polite, determined, and caring; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. Warm celebration showing the category result: heartwarming reunion. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Small joyful orbit as warm particles drift.",
+      "sound_effects": [
+        "gentle ambience",
+        "paper star"
+      ],
+      "emotion": "joy"
+    },
+    {
+      "scene_number": 6,
+      "duration_seconds": 5,
+      "narration": "The reunion filled the air with warm golden sparkles. The paper star softly echoed the adventure's beginning.",
+      "visual_prompt": "CHARACTER LOCK: penguin; young storybook animal; small rounded body; midnight-blue feathers with a white belly; large brown eyes; wearing a tangerine bow tie; accessories: a snowflake satchel; distinguishing features: one freckle beside the beak; personality: polite, determined, and caring; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. A peaceful loop composition in the seaside dune, with the paper star returning to its opening position. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Slow pull-back that matches the opening frame.",
+      "sound_effects": [
+        "gentle ambience",
+        "paper star"
+      ],
+      "emotion": "warm satisfaction"
+    }
+  ],
+  "music_mood": "curious and gentle, becoming uplifting after the heartwarming reunion",
+  "ending_type": "heartwarming_reunion",
+  "loop_hint": "The final paper star movement softly matches the opening.",
+  "content_summary": "In a seaside dune, a kind penguin helps when a bashful caterpillar had lost a colorful keepsake and creates a heartwarming reunion.",
+  "tags": [
+    "kids story",
+    "emotional to happy",
+    "penguin",
+    "paper star",
+    "YouTube Shorts"
+  ]
+}

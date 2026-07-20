@@ -1,0 +1,16 @@
+{
+  "main_character": {
+    "character_id": "penguin_0001_496",
+    "species": "penguin",
+    "age_style": "young storybook animal",
+    "body_shape": "small rounded body",
+    "fur_or_skin_color": "midnight-blue feathers with a white belly",
+    "eye_color": "large brown eyes",
+    "clothes": "a tangerine bow tie",
+    "accessories": "a snowflake satchel",
+    "personality": "polite, determined, and caring",
+    "distinguishing_features": "one freckle beside the beak",
+    "visual_style": "high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition",
+    "negative_prompt": "violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "episode_id": "episode_0001",
+  "language": "en",
+  "duration_target_seconds": 30,
+  "story_category": "animal_rescue",
+  "title": "The Penguin and the Glass Acorn: Safe Rescue",
+  "hook": "A shy lantern blinked three times from behind a tree near a tiny penguin.",
+  "hook_type": "rescue_mission",
+  "character_bible": {
+    "main_character": {
+      "character_id": "penguin_0001_289",
+      "species": "penguin",
+      "age_style": "young storybook animal",
+      "body_shape": "small rounded body",
+      "fur_or_skin_color": "midnight-blue feathers with a white belly",
+      "eye_color": "large brown eyes",
+      "clothes": "a tangerine bow tie",
+      "accessories": "a snowflake satchel",
+      "personality": "polite, determined, and caring",
+      "distinguishing_features": "one freckle beside the beak",
+      "visual_style": "high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition",
+      "negative_prompt": "violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors"
+    }
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "duration_seconds": 5,
+      "narration": "A shy lantern blinked three times from behind a tree near a tiny penguin.",
+      "visual_prompt": "CHARACTER LOCK: penguin; young storybook animal; small rounded body; midnight-blue feathers with a white belly; large brown eyes; wearing a tangerine bow tie; accessories: a snowflake satchel; distinguishing features: one freckle beside the beak; personality: polite, determined, and caring; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. A striking opening in a crystal creek, featuring a large glass acorn and a surprised penguin. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Quick gentle push-in with a surprised reaction.",
+      "sound_effects": [
+        "gentle ambience",
+        "glass acorn"
+      ],
+      "emotion": "wonder"
+    },
+    {
+      "scene_number": 2,
+      "duration_seconds": 5,
+      "narration": "In the crystal creek, the penguin learned that a small fish was separated from its pond by a shallow stream.",
+      "visual_prompt": "CHARACTER LOCK: penguin; young storybook animal; small rounded body; midnight-blue feathers with a white belly; large brown eyes; wearing a tangerine bow tie; accessories: a snowflake satchel; distinguishing features: one freckle beside the beak; personality: polite, determined, and caring; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The crystal creek reveals the safe problem: a small fish was separated from its pond by a shallow stream. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Slow side tracking shot toward the friend in need.",
+      "sound_effects": [
+        "gentle ambience",
+        "glass acorn"
+      ],
+      "emotion": "concern"
+    },
+    {
+      "scene_number": 3,
+      "duration_seconds": 5,
+      "narration": "What began as a rescue mission grew harder when the glass acorn slipped out of reach.",
+      "visual_prompt": "CHARACTER LOCK: penguin; young storybook animal; small rounded body; midnight-blue feathers with a white belly; large brown eyes; wearing a tangerine bow tie; accessories: a snowflake satchel; distinguishing features: one freckle beside the beak; personality: polite, determined, and caring; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The challenge grows around the glass acorn, with clear child-safe visual stakes. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Camera tilts toward the growing challenge.",
+      "sound_effects": [
+        "gentle ambience",
+        "glass acorn"
+      ],
+      "emotion": "hopeful tension"
+    },
+    {
+      "scene_number": 4,
+      "duration_seconds": 5,
+      "narration": "The thoughtful penguin decided to reach the stranded friend and floated a sturdy bark raft across the shallow water.",
+      "visual_prompt": "CHARACTER LOCK: penguin; young storybook animal; small rounded body; midnight-blue feathers with a white belly; large brown eyes; wearing a tangerine bow tie; accessories: a snowflake satchel; distinguishing features: one freckle beside the beak; personality: polite, determined, and caring; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. The character performs the solution: floated a sturdy bark raft across the shallow water. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Smooth close-up follows the careful solution.",
+      "sound_effects": [
+        "gentle ambience",
+        "glass acorn"
+      ],
+      "emotion": "determination"
+    },
+    {
+      "scene_number": 5,
+      "duration_seconds": 5,
+      "narration": "The plan worked, bringing a safe rescue for everyone in the crystal creek.",
+      "visual_prompt": "CHARACTER LOCK: penguin; young storybook animal; small rounded body; midnight-blue feathers with a white belly; large brown eyes; wearing a tangerine bow tie; accessories: a snowflake satchel; distinguishing features: one freckle beside the beak; personality: polite, determined, and caring; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. Warm celebration showing the category result: safe rescue. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Small joyful orbit as warm particles drift.",
+      "sound_effects": [
+        "gentle ambience",
+        "glass acorn"
+      ],
+      "emotion": "joy"
+    },
+    {
+      "scene_number": 6,
+      "duration_seconds": 5,
+      "narration": "The new friends celebrated with a tiny dance under the leaves. The glass acorn softly echoed the adventure's beginning.",
+      "visual_prompt": "CHARACTER LOCK: penguin; young storybook animal; small rounded body; midnight-blue feathers with a white belly; large brown eyes; wearing a tangerine bow tie; accessories: a snowflake satchel; distinguishing features: one freckle beside the beak; personality: polite, determined, and caring; style: high-quality colorful 3D children's animation, soft cinematic lighting, rounded shapes, vertical 9:16 composition. A peaceful loop composition in the crystal creek, with the glass acorn returning to its opening position. Keep all character details unchanged. Negative prompt: violence, fear, danger, adult content, copyrighted character, brand logo, text, watermark, extra limbs, inconsistent colors.",
+      "motion_prompt": "Slow pull-back that matches the opening frame.",
+      "sound_effects": [
+        "gentle ambience",
+        "glass acorn"
+      ],
+      "emotion": "warm satisfaction"
+    }
+  ],
+  "music_mood": "curious and gentle, becoming uplifting after the safe rescue",
+  "ending_type": "safe_rescue",
+  "loop_hint": "The final glass acorn movement softly matches the opening.",
+  "content_summary": "In a crystal creek, a kind penguin helps when a small fish was separated from its pond by a shallow stream and creates a safe rescue.",
+  "tags": [
+    "kids story",
+    "animal rescue",
+    "penguin",
+    "glass acorn",
+    "YouTube Shorts"
+  ]
+}

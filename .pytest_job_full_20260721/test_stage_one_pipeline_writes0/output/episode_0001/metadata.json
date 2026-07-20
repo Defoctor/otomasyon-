@@ -1,0 +1,18 @@
+{
+  "episode_id": "episode_0001",
+  "story_category": "animal_rescue",
+  "main_character_type": "penguin",
+  "character_id": "penguin_0001_289",
+  "hook_type": "rescue_mission",
+  "ending_type": "safe_rescue",
+  "duration_seconds": 30,
+  "providers_used": {
+    "story": "mock"
+  },
+  "generation_cost_estimate_usd": 0.0,
+  "approval_status": "pending",
+  "upload_status": "not_ready",
+  "requires_manual_approval": true,
+  "demo_mode": true,
+  "generation_seed": 11
+}
